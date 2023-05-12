@@ -16,6 +16,12 @@ First, clone this repository:
 git clone https://github.com/neurodata/graspologic-demo.git
 ```
 
+It is recommended to develop in a virtual environment:
+```
+python3 -m venv .venv
+
+```
+
 The only root dependency (besides Python 3.8 - 3.10) is a recent release of ``graspologic``. We recommend installing via:
 
 ```
