@@ -23,6 +23,10 @@ Brief demo applying ``graspologic`` to connectome data
 ### Using TACC
 - Go to the [TACC jobs portal](https://tap.tacc.utexas.edu/jobs/).
 - Configure a job as follows:
+  - System: Lonestar6
+  - Application: DCV remote desktop
+  - Project: OTH22024
+  - Queue: normal
 - Hit ``Connect``.
 From here, follow the directions below for running locally.
 
