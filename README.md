@@ -6,7 +6,7 @@ Brief demo applying ``graspologic`` to connectome data
 - [Setup](#setup)
   - [Google Collaboratory](#google-collaboratory)
   - [Using TACC](#using-tacc)
-  - [Running locally](#running-locally)
+  - [Running locally (or from TACC DCV console)](#running-locally-or-from-tacc-dcv-console)
     - [Option 1 (use the setup script)](#option-1-use-the-setup-script)
     - [Option 2 (go step by step)](#option-2-go-step-by-step)
 - [Using the notebook](#using-the-notebook)
@@ -26,7 +26,7 @@ Brief demo applying ``graspologic`` to connectome data
 - Hit ``Connect``.
 From here, follow the directions below for running locally.
 
-### Running locally
+### Running locally (or from TACC DCV console)
 Clone this repository
 ```
 git clone https://github.com/neurodata/graspologic-demo.git
