@@ -2,6 +2,15 @@
 
 Brief demo applying graspologic to connectome data
 
+- [graspologic-demo](#graspologic-demo)
+  - [Running the demo](#running-the-demo)
+    - [Google Collaboratory](#google-collaboratory)
+    - [Using TACC](#using-tacc)
+    - [Running locally](#running-locally)
+      - [Option 1 (go step by step)](#option-1-go-step-by-step)
+      - [Option 2 (use the setup script)](#option-2-use-the-setup-script)
+  - [Using the notebook](#using-the-notebook)
+
 ## Running the demo
 
 ### Google Collaboratory
