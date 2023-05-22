@@ -1,17 +1,17 @@
+<!-- omit in toc -->
 # graspologic-demo
 
-Brief demo applying graspologic to connectome data
+Brief demo applying ``graspologic`` to connectome data
 
-- [graspologic-demo](#graspologic-demo)
-  - [Running the demo](#running-the-demo)
-    - [Google Collaboratory](#google-collaboratory)
-    - [Using TACC](#using-tacc)
-    - [Running locally](#running-locally)
-      - [Option 1 (go step by step)](#option-1-go-step-by-step)
-      - [Option 2 (use the setup script)](#option-2-use-the-setup-script)
-  - [Using the notebook](#using-the-notebook)
+- [Setup](#setup)
+  - [Google Collaboratory](#google-collaboratory)
+  - [Using TACC](#using-tacc)
+  - [Running locally](#running-locally)
+    - [Option 1 (use the setup script)](#option-1-use-the-setup-script)
+    - [Option 2 (go step by step)](#option-2-go-step-by-step)
+- [Using the notebook](#using-the-notebook)
 
-## Running the demo
+## Setup
 
 ### Google Collaboratory
 - Go to [Google Collaboratory](https://colab.research.google.com/).
@@ -32,7 +32,14 @@ Clone this repository
 git clone https://github.com/neurodata/graspologic-demo.git
 ```
 
-#### Option 1 (go step by step)
+#### Option 1 (use the setup script)
+A script is included which has all of the above steps.
+```
+cd graspologic-demo
+sh ./setup.sh
+```
+
+#### Option 2 (go step by step)
 Make sure you have Python 3.9 or 3.10 installed. To check, type
 ```
 python3 --version
@@ -71,12 +78,6 @@ Launch a Jupyter Notebook window
 jupyter notebook
 ```
 
-#### Option 2 (use the setup script)
-A script is included which has all of the above steps.
-```
-cd graspologic-demo
-sh ./setup.sh
-```
 
 ## Using the notebook
 In the folder structure that pops up, navigate to the notebook `demo.ipynb` and open it - you should now be able to follow along with the demo. You may need to go to "Kernel -> Change kernel" and pick "venv", but it may also work already if you have the virtual environment active.
