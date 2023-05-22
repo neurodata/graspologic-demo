@@ -78,6 +78,5 @@ Launch a Jupyter Notebook window
 jupyter notebook
 ```
 
-
 ## Using the notebook
 In the folder structure that pops up, navigate to the notebook `demo.ipynb` and open it - you should now be able to follow along with the demo. You may need to go to "Kernel -> Change kernel" and pick "venv", but it may also work already if you have the virtual environment active.
