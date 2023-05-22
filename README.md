@@ -5,7 +5,11 @@ Brief demo applying graspologic to connectome data
 ## Running the demo
 
 ### Google Collaboratory
-*Coming soon*
+- Go to [Google Collaboratory](https://colab.research.google.com/).
+- Go to "File -> Open notebook"
+- In the window that pops up, select "GitHub"
+- Paste "https://github.com/neurodata/graspologic-demo/blob/main/demo.ipynb" into the prompt and select "demo.ipynb"
+- Try running the notebook cells, one of the first steps will install necessary dependencies
 
 ### Using TACC
 - Go to the [TACC jobs portal](https://tap.tacc.utexas.edu/jobs/).
@@ -19,6 +23,7 @@ Clone this repository
 git clone https://github.com/neurodata/graspologic-demo.git
 ```
 
+#### Option 1 (go step by step)
 Make sure you have Python 3.9 or 3.10 installed. To check, type
 ```
 python3 --version
@@ -57,4 +62,12 @@ Launch a Jupyter Notebook window
 jupyter notebook
 ```
 
+#### Option 2 (use the setup script)
+A script is included which has all of the above steps.
+```
+cd graspologic-demo
+sh ./setup.sh
+```
+
+## Using the notebook
 In the folder structure that pops up, navigate to the notebook `demo.ipynb` and open it - you should now be able to follow along with the demo. You may need to go to "Kernel -> Change kernel" and pick "venv", but it may also work already if you have the virtual environment active.
