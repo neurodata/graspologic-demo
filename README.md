@@ -4,7 +4,7 @@
 Brief demo applying ``graspologic`` to connectome data
 
 - [Setup](#setup)
-  - [Google Collaboratory](#google-collaboratory)
+  - [Google Colaboratory](#google-colaboratory)
   - [Using TACC](#using-tacc)
   - [Running locally (or from TACC DCV console)](#running-locally-or-from-tacc-dcv-console)
     - [Option 1 (use the setup script)](#option-1-use-the-setup-script)
@@ -13,8 +13,8 @@ Brief demo applying ``graspologic`` to connectome data
 
 ## Setup
 
-### Google Collaboratory
-- Go to [Google Collaboratory](https://colab.research.google.com/).
+### Google Colaboratory
+- Go to [Google Colaboratory](https://colab.research.google.com/).
 - Go to "File -> Open notebook"
 - In the window that pops up, select "GitHub"
 - Paste "https://github.com/neurodata/graspologic-demo/blob/main/demo.ipynb" into the prompt and select "demo.ipynb"
